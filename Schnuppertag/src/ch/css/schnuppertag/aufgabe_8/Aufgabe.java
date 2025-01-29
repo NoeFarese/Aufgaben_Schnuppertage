@@ -1,5 +1,7 @@
 package aufgabe_8;
 
+import java.util.Scanner;
+
 public class Aufgabe {
     public static void main(String[] args) {
         /*
