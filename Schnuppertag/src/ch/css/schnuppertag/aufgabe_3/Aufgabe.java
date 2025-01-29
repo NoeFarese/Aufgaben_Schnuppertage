@@ -1,7 +1,5 @@
 package aufgabe_3;
 
-import java.util.Scanner;
-
 public class Aufgabe {
 
     public static void main(String[] args){
@@ -11,7 +9,9 @@ public class Aufgabe {
         die Variabel x gleich wie 15 ist. Falls es zutrifft, gib folgendes aus: Die Variabel x ist 15.
 
         Schreibe unter diesem Kommentar den Code.
-         */
+        */
+
+
 
         /*
         Nr. 2:
