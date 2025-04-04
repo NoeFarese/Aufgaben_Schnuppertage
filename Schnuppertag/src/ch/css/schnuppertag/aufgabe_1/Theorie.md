@@ -17,8 +17,8 @@ String variabelName = "Zeichenkette";
 Eine Variable besteht aus einem **Datentypen**, wie int oder String und einem **Namen**. 
 Den Namen kannst du selber setzen, er darf jedoch keine Leerzeichen beinhalten.
 
-[String] -> Wird verwendet, um eine Variabel mit Zeichen ins Leben zu rufen. Der Inhalt muss immer in Hochkommas stehen.<br/>
-[int] -> Wird verwendet, um eine Variabel mit Zahlen zu erstellen. Die Variabel kann nSchts anderes als eine Zahl beinhalten.
+[String] -> Wird verwendet, um eine Variabel mit Zeichen ins Leben zu rufen. Der Inhalt muss immer in Hochkommas stehen.  
+[int] -> Wird verwendet, um eine Variabel mit Zahlen zu erstellen. Die Variabel kann nichts anderes als eine Zahl beinhalten.
 
 
 [variabelName] -> Folgt immer nach dem int oder String und ist grundsätzlich frei wählbar. Du kannst sie beliebig benennen. Es gibt jedoch einige Einschränkungen, auf welche wir jetzt nicht näher draufeingehen.  
