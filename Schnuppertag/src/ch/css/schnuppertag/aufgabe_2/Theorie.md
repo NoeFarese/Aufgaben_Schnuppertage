@@ -1,15 +1,34 @@
 # Theorie für Aufgabe 2
 
-Bei dieser Aufgabe schauen wir Scanner an. Mit dem Scanner kann eine Eingabe gemacht werden.
+Bei dieser Aufgabe schauen wir **Benutzereingaben** an.
 
-So erstellt man einen Scanner, speichert die Eingabe in einer Variabel und gibt diese aus:
+Für Benutzereingaben brauchen wir einen **Scanner**.  
+Einen solchen **Scanner** erstellt man wie folgt: 
 
-<pre>
-        System.out.println("Gebe eine Zahl ein: ");
-        Scanner scanner1 = new Scanner(System.in); // Hier wird der Scanner erstellt
-        int eingabe1 = scanner1.nextInt(); // Hier wird die Eingabe vom Scanner in einer Variabel gespeichert
+```
+Scanner meinScanner = new Scanner(System.in); 
 
-        System.out.println(eingabe1);
-</pre>
+int benutzereingabe = meinScanner.nextInt(); 
+```
 
-Falls man einen String speichern will, muss man bei der Variabel "String eingabe1 = scanner1.nextLine();" machen.
+**Schritt für Schritt erklärt:**
+```
+Scanner meinScanner = new Scanner(System.in);
+```
+Hier wird ein neuer Scanner mit dem Namen meinScanner erstellt. 
+
+```
+int benutzereingabe = meinScanner.nextInt();
+```
+Danach können wir eine Variabel erstellen und die Eingabe vom Benutzer darin speichern.  
+In diesem Beispiel wollen wir eine Zahl speichern, deshalb verwenden wir ``int`` und ``.nextInt()``. Für eine Zeichenkette verwendet man ``String`` und ``.nextLine()``.
+
+**Beispiel:**
+```
+System.out.println("Gib einen Benutzernamen ein: ");
+
+Scanner meinScanner = new Scanner(System.in);
+String benutzername = meinScanner.nextLine();
+
+System.out.println("Hallo " + benutzername);
+```
