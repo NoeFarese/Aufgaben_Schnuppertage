@@ -1,9 +1,9 @@
 # Theorie für Aufgabe 1
 
-### Variablen
+### Variabeln
 
-Als erster Schritt wollen wir eine Variable erstellen und diese in der Konsole ausgeben.  
-Eine Variable verwenden wir, um eine Zahl oder eine Zeichenkette zu speichern, sodass wir den Inhalt später
+Als erster Schritt wollen wir eine Variabel erstellen und diese in der Konsole ausgeben.  
+Eine Variabel verwenden wir, um eine Zahl oder eine Zeichenkette zu speichern, sodass wir den Inhalt später
 wiederverwenden können.
 
 Du kannst es dir wie eine Kartonkiste vorstellen. Du legst eine Zahl in eine Kiste und später, wenn du den Inhalt
@@ -16,7 +16,7 @@ int variabelName = 10;
 String variabelName = "Zeichenkette";
 ```
 
-Eine Variable besteht aus einem **Datentypen**, wie int oder String und einem **Namen**.
+Eine Variabel besteht aus einem **Datentypen**, wie int oder String und einem **Namen**.
 Den Namen kannst du selber setzen, er darf jedoch keine Leerzeichen beinhalten.
 
 [String] -> Wird verwendet, um eine Variabel mit Zeichen zu erstellen. Der Inhalt muss immer in Hochkommas
@@ -26,14 +26,15 @@ beinhalten.
 
 [variabelName] -> Folgt immer nach dem int oder String und ist grundsätzlich frei wählbar. Du kannst sie beliebig
 benennen. Es gibt jedoch einige Einschränkungen, auf welche wir jetzt nicht näher draufeingehen.
-[=] -> Befindet sich zwischen dem Variablennamen und dem Wert, welcher abgelegt wird.
+[=] -> Befindet sich zwischen dem Variabelnamen und dem Wert, welcher abgelegt wird.
 [10] -> Der Wert, in diesem Fall eine Zahl, welche in der Variabel gespeichert wird.
 
 ---
 
 ### Ausgabe in der Konsole
 
-**Du kannst jegliche sachen in der Konsole ausgeben, und zwar wie folgt:**
+#### Einfache Ausgabe
+Du kannst jegliche sachen in der Konsole ausgeben, und zwar wie folgt:
 ```
 System.out.println("Hallo Welt");
 
@@ -41,14 +42,15 @@ oder auch
 
 System.out.println(variabel);
 ```
+#### Mehrere Variabeln ausgeben
 Du kannst auch verschiedene Variabeln hintereinander ausgeben.
 ```
 System.out.println("hallo" + variabel1 + variabel2);
 ```
 
-### WICHTIG! Wenn du eine Variable verwenden möchtest, schreibst du sie NICHT in Gänsefüsschen.
+### WICHTIG! Wenn du eine Variabel verwenden möchtest, schreibst du sie NICHT in Gänsefüsschen.
 
-**Beachte:** Grundsätzlich schreibt man jeglichen Text (natürlich ausser Variablen) in Gänsefüssen, hingegen Zahlen ohne
+**Beachte:** Grundsätzlich schreibt man jeglichen Text (natürlich ausser Variabeln) in Gänsefüssen, hingegen Zahlen ohne
 diese Sonderzeichen geschrieben werden.
 
 ---
