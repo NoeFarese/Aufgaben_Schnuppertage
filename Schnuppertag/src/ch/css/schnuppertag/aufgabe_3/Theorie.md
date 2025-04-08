@@ -23,56 +23,63 @@ Mit ``=`` teilt man einer Variabel einen Wert zu und mit ``==`` vergleicht man z
 
 **Modulo:**  
 Bei Modulo verwendet man den Operator ``%``. Mit diesem Operator bekommt man den **Rest** einer
-Division von zwei Zahlen.
+Division von zwei Zahlen.  
 
 **Beispiele:**
 ```
-15 % 5 = 0 --> 15 geteilt durch 5 gibt keinen Rest darum 0
-16 % 5 = 1 --> kommt bis 15 und dann noch 1 für den Rest
+15 % 5 = 0 -> 15 geteilt durch 5 gibt 3 mit Rest 0
+16 % 5 = 1 -> Gibt einen Rest von 1, da 15 die nächst teilbare Zahl ist
 32 % 9 = 5
-```
-## Bedingungen
-Jetzt können wir diese Operatoren in einem If-else anwenden.
 
+(35 % 5 == 0) -> überprüfen, ob 35 ohne Rest durch 5 teilbar ist
+```
+
+## Bedingungen
+Jetzt können wir diese Operatoren bei einer ``if-else`` Bedingung anwenden.  
+``If`` bedeutet **falls** und ``else`` bedeutet **sonst**.
+
+### If-Abfrage ohne else:  
+In der Klammer steht die **Bedingung**, wenn diese zutrifft wird der Code in den geschwungenen Klammern (``{}``) ausgeführt.  
+
+**Beispiel:** 
 ```
 int zahl = 5;
 
 if(zahl == 5) {
-    System.out.println("Die Variabel zahl hat den Wert 5 gespeichert");
+    System.out.println("Die Zahl ist 5.");
+} 
+```
+Hier trifft die Bedingung zu, denn den Variabel ``zahl`` (Wert 5) ist gleich ``5``. In der Konsole wird ``Die Zahl ist 5.`` ausgegeben.
+
+
+### If-Abfrage mit else:
+Sollte die Bedingungn nicht zutreffen, tritt (falls vorhanden) der ``else`` Fall ein und der Code im ``else{}`` wird ausgeführt.  
+**Beispiel:**
+```
+int zahl = 37;
+
+if(zahl != 5) {
+    System.out.println("Die Zahl ist nicht 5.");
 } else {
-    System.out.println("Die Variabel zahl hat einen anderen Wert als 5 gespeichert.");
+    System.out.println("Die Zahl ist nicht 5.");
+}
+```
+Wenn zahl jetzt 5 wäre, würde der If-Block übersprungen und die Ausgabe nicht ausgeführt werden.
+
+### If-Abfrage mit else-if
+
+Um mehrere Bedingungen zu prüfen, kann man beliebig viele ``else if`` hinzufügen.  
+**Beispiel:**
+```
+int zahl = 10;  
+
+if(zahl == 5){
+    System.out.println("Die Variabel zahl hat den Wert 5 gespeichert.");
+} else if (zahl == 10) {
+    System.out.println("Die Variabel zahl hat den Wert 10 gespeichert.");
+} else{
+    System.out.println("Die Variabel zahl hat einen anderen Wert als 5 oder 10");
 }
 ```
 
-``If`` bedeutet **falls** und ``else`` bedeutet **sonst**.  
-Man kann also kontrollieren ob eine bestimmte Variabel 
-einen gewissen Wert gespeichert hat und falls dies zutrifft kann man Logik ausführen. In unserem Fall ist das eine einfache Ausgabe in der Konsole.
-Wenn es aber nicht zutrifft, wird der If-Block übersprungen und es geht zum Else-Block. Dort werden dann die Anweisungen im Else-Block ausgeführt.
-
-Das "if" braucht immer eine Bedingung --> bei diesem Beispiel ist es x == 5. Also wird es nur ausgeführt wenn die Variable x den Wert 5 gespeichert hat.
-Das "else" braucht keine Bedingung. Man kann das "else" auch weglassen und nur eine if-Abfrage machen.
-
-Beispiel für eine If-Abfrage ohne else:
-```
-    if(x != 5){
-    System.out.println("Die Variabel x ist nicht 5");
-}
-```
-Wenn x jetzt 5 wäre, würde es einfach den If-Block überspringen und beim Code weitergehen, die Ausgabe wird nicht ausgeführt.
-
-Es gibt auch die Möglichkeit mehrere Bedingungen zu kontrollieren. Dann kann man beispielsweise eine if-else-if Abfrage machen.
-
-Beispiel:
-
-```
-    int x = 5;  
-    int y = 10;
-
-    if(x == 5){
-    System.out.println("Die Variabel x hat den Wert 5 gespeichert.");
-    } else if (y == 10) {
-        System.out.println("Die Variabel y hat den Wert 10 gespeichert.");
-    } else{
-    System.out.println("Beide Variabeln x und y haben einen anderen Wert als 5 oder 10");
-}
-```
+Bei diesem Beispiel trifft die zweite Bedingung zu und der Code im ``else if`` wird ausgeführt. 
