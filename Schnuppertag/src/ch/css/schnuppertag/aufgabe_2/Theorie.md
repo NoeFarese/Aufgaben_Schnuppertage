@@ -1,5 +1,7 @@
 # Theorie für Aufgabe 2
 
+## Benutzereingaben
+
 Bei dieser Aufgabe schauen wir **Benutzereingaben** an.
 
 Für Benutzereingaben brauchen wir einen **Scanner**.  

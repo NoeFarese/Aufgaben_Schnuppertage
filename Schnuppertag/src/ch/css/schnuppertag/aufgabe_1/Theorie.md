@@ -1,6 +1,6 @@
 # Theorie für Aufgabe 1
 
-### Variablen
+## Variablen
 
 Als erster Schritt wollen wir eine Variable erstellen und diese in der Konsole ausgeben.  
 Eine Variable verwenden wir, um eine Zahl oder eine Zeichenkette zu speichern, sodass wir den Inhalt später
@@ -31,9 +31,9 @@ benennen. Es gibt jedoch einige Einschränkungen, auf welche wir jetzt nicht nä
 
 ---
 
-### Ausgabe in der Konsole
+## Ausgabe in der Konsole
 
-#### Einfache Ausgabe
+### Einfache Ausgabe
 Du kannst jegliche sachen in der Konsole ausgeben, und zwar wie folgt:
 ```
 System.out.println("Hallo Welt");
@@ -42,15 +42,15 @@ oder auch
 
 System.out.println(variable);
 ```
-#### Mehrere Variablen ausgeben
+### Mehrere Variablen ausgeben
 Du kannst auch verschiedene Variablen hintereinander ausgeben.
 ```
 System.out.println("hallo" + variable1 + variable2);
 ```
 
-### WICHTIG! Wenn du eine Variable verwenden möchtest, schreibst du sie NICHT in Gänsefüsschen.
+#### WICHTIG: Wenn du eine Variable verwenden möchtest, schreibst du sie NICHT in Gänsefüsschen.
 
-**Beachte:** Grundsätzlich schreibt man jeglichen Text (natürlich ausser Variablen) in Gänsefüssen, hingegen Zahlen ohne
+Grundsätzlich schreibt man jeglichen Text (natürlich ausser Variablen) in Gänsefüssen, hingegen Zahlen ohne
 diese Sonderzeichen geschrieben werden.
 
 ---
