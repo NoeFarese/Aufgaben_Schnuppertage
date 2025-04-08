@@ -7,7 +7,7 @@ In Java gibt es die folgenden **Operatoren**:
 * : Multiplikation. Zahlen multiplizieren.
 / : Division. Zahlen dividieren.
 ```
-**Operatoren** welche als **Bedingungen** verwendet werden (for-Schlaufe, if-else usw.):
+**Operatoren** welche als **Bedingungen** verwendet werden (for-Schlaufe, if-else, usw.):
 
 ```
 <       : kleiner als
@@ -19,10 +19,10 @@ In Java gibt es die folgenden **Operatoren**:
 .equals : gleich für Strings
 ```
 
-Mit ``=`` teilt man einer Variable einen Wert zu und mit ``==`` vergleicht man zwei Werte.
+Mit `=` teilt man einer Variable einen Wert zu und mit `==` vergleicht man zwei Werte.
 
 **Modulo:**  
-Bei Modulo verwendet man den Operator ``%``. Mit diesem Operator bekommt man den **Rest** einer
+Bei Modulo verwendet man den Operator `%`. Mit diesem Operator bekommt man den **Rest** einer
 Division von zwei Zahlen.  
 
 **Beispiele:**
@@ -35,11 +35,11 @@ Division von zwei Zahlen.
 ```
 
 ## Bedingungen
-Jetzt können wir diese Operatoren bei einer ``if-else`` Bedingung anwenden.  
-``If`` bedeutet **falls** und ``else`` bedeutet **sonst**.
+Jetzt können wir diese Operatoren bei einer `if-else` Bedingung anwenden.  
+`If` bedeutet **falls** und `else` bedeutet **sonst**.
 
 ### If-Abfrage ohne else:  
-In der Klammer steht die **Bedingung**, wenn diese zutrifft wird der Code in den geschwungenen Klammern (``{}``) ausgeführt.  
+In der Klammer steht die **Bedingung**, wenn diese zutrifft wird der Code in den geschwungenen Klammern (`{}`) ausgeführt.  
 
 **Beispiel:** 
 ```
@@ -49,11 +49,11 @@ if(zahl == 5) {
     System.out.println("Die Zahl ist 5.");
 } 
 ```
-Hier trifft die Bedingung zu, denn die Variable ``zahl`` (Wert 5) ist gleich ``5``. In der Konsole wird ``Die Zahl ist 5.`` ausgegeben.
+Hier trifft die Bedingung zu, denn die Variable `zahl` (Wert 5) ist gleich `5`. In der Konsole wird `Die Zahl ist 5.` ausgegeben.
 
 
 ### If-Abfrage mit else:
-Sollte die Bedingungn nicht zutreffen, tritt (falls vorhanden) der ``else`` Fall ein und der Code im ``else{}`` wird ausgeführt.  
+Sollte die Bedingungn nicht zutreffen, tritt (falls vorhanden) der `else` Fall ein und der Code im `else{}` wird ausgeführt.  
 **Beispiel:**
 ```
 int zahl = 37;
@@ -68,7 +68,7 @@ Wenn zahl jetzt 5 wäre, würde der If-Block übersprungen und die Ausgabe nicht
 
 ### If-Abfrage mit else-if
 
-Um mehrere Bedingungen zu prüfen, kann man beliebig viele ``else if`` hinzufügen.  
+Um mehrere Bedingungen zu prüfen, kann man beliebig viele `else if` hinzufügen.  
 **Beispiel:**
 ```
 int zahl = 10;  
@@ -82,4 +82,4 @@ if(zahl == 5){
 }
 ```
 
-Bei diesem Beispiel trifft die zweite Bedingung zu und der Code im ``else if`` wird ausgeführt. 
+Bei diesem Beispiel trifft die zweite Bedingung zu und der Code im `else if` wird ausgeführt. 
