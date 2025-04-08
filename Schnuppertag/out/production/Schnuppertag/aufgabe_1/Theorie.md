@@ -8,16 +8,16 @@ kannst du den Karton öffnen und den Inhalt herausnehmen. Du kannst der Wert in 
 
 <b>Beispiel:</b>
 <pre>
-int variabelName = 10;
-String variabelName = "Zeichenkette";
+int variableName = 10;
+String variableName = "Zeichenkette";
 </pre>
-[String] -> Wird verwendet, um eine Variabel mit Zeichen ins Leben zu rufen. Der Inhalt muss immer in Hochkommas stehen.<br/>
-[int] -> Wird verwendet, um eine Variabel mit Zahlen zu erstellen. Die Variabel kann nSchts anderes als eine Zahl beinhalten.
+[String] -> Wird verwendet, um eine Variable mit Zeichen ins Leben zu rufen. Der Inhalt muss immer in Hochkommas stehen.<br/>
+[int] -> Wird verwendet, um eine Variable mit Zahlen zu erstellen. Die Variable kann nSchts anderes als eine Zahl beinhalten.
 
 
-[variabelName] -> Folgt immer nach dem int oder String und ist grundsätzlich frei wählbar. Du kannst sie beliebig benennen. Es gibt jedoch einige Einschränkungen, auf welche wir jetzt nicht näher draufeingehen.
+[variableName] -> Folgt immer nach dem int oder String und ist grundsätzlich frei wählbar. Du kannst sie beliebig benennen. Es gibt jedoch einige Einschränkungen, auf welche wir jetzt nicht näher draufeingehen.
 <br/>[=] -> Befindet sich zwischen dem Variablennamen und dem Wert, welcher abgelegt wird.
-<br/>[10] -> Der Wert, in diesem Fall eine Zahl, welche in der Variabel gespeichert wird.
+<br/>[10] -> Der Wert, in diesem Fall eine Zahl, welche in der Variable gespeichert wird.
 
 
 
@@ -26,11 +26,11 @@ Du kannst jegliche sachen in der Konsole ausgeben, und zwar wie folgt: <br/>
 <pre>
 System.out.println("Hallo Welt");
 //oder auch 
-System.out.println(variabel);
+System.out.println(variable);
 </pre>
-Du kannst auch verschiedene Variabeln hintereinander ausgeben.
+Du kannst auch verschiedene Variablen hintereinander ausgeben.
 <pre>
-System.out.println("hallo" + variabel1 + variabel2);
+System.out.println("hallo" + variable1 + variable2);
 </pre>
 
 <h3>WICHTIG! Wenn du eine Variable verwenden möchtest, schreibst du sie NICHT in Gänsefüsschen.</h3>

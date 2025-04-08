@@ -19,7 +19,7 @@ In Java gibt es die folgenden **Operatoren**:
 .equals : gleich für Strings
 ```
 
-Mit ``=`` teilt man einer Variabel einen Wert zu und mit ``==`` vergleicht man zwei Werte.
+Mit ``=`` teilt man einer Variable einen Wert zu und mit ``==`` vergleicht man zwei Werte.
 
 **Modulo:**  
 Bei Modulo verwendet man den Operator ``%``. Mit diesem Operator bekommt man den **Rest** einer
@@ -49,7 +49,7 @@ if(zahl == 5) {
     System.out.println("Die Zahl ist 5.");
 } 
 ```
-Hier trifft die Bedingung zu, denn den Variabel ``zahl`` (Wert 5) ist gleich ``5``. In der Konsole wird ``Die Zahl ist 5.`` ausgegeben.
+Hier trifft die Bedingung zu, denn die Variable ``zahl`` (Wert 5) ist gleich ``5``. In der Konsole wird ``Die Zahl ist 5.`` ausgegeben.
 
 
 ### If-Abfrage mit else:
@@ -74,11 +74,11 @@ Um mehrere Bedingungen zu prüfen, kann man beliebig viele ``else if`` hinzufüg
 int zahl = 10;  
 
 if(zahl == 5){
-    System.out.println("Die Variabel zahl hat den Wert 5 gespeichert.");
+    System.out.println("Die Variable zahl hat den Wert 5 gespeichert.");
 } else if (zahl == 10) {
-    System.out.println("Die Variabel zahl hat den Wert 10 gespeichert.");
+    System.out.println("Die Variable zahl hat den Wert 10 gespeichert.");
 } else{
-    System.out.println("Die Variabel zahl hat einen anderen Wert als 5 oder 10");
+    System.out.println("Die Variable zahl hat einen anderen Wert als 5 oder 10");
 }
 ```
 

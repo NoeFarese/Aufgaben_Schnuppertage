@@ -16,7 +16,7 @@ Operatoren welche als Bedingungen verwendet werden (for-Schlaufe, if-else usw.):
 != : nicht gleich
 .equals : Strings vergleichen
 
-Mit "=" teilt man einer Variabel einen Wert zu und mit "==" vergleicht man einen Wert.
+Mit "=" teilt man einer Variable einen Wert zu und mit "==" vergleicht man einen Wert.
 
 Modulo:
 Bei Modulo verwendet man den Operator "%". Mit diesem Operator bekommt man den Rest einer
@@ -34,14 +34,14 @@ Jetzt können wir diese Operatoren in einem If-else anwenden.
     int x = 5;
 
     if(x == 5){
-    System.out.println("Die Variabel x hat den Wert 5 gespeichert");
+    System.out.println("Die Variable x hat den Wert 5 gespeichert");
     } else {
-        System.out.println("Die Variabel x hat einen anderen Wert als 5 gespeichert.");
+        System.out.println("Die Variable x hat einen anderen Wert als 5 gespeichert.");
     }
 
 </pre>
 
-"If" bedeutet falls und "else" bedeutet sonst. Man kann also kontrollieren ob eine bestimmte Variabel 
+"If" bedeutet falls und "else" bedeutet sonst. Man kann also kontrollieren ob eine bestimmte Variable 
 einen gewissen Wert gespeichert hat und falls dies zutrifft kann man Logik ausführen. In unserem Fall ist das eine einfache Ausgabe in der Konsole.
 Wenn es aber nicht zutrifft, wird der If-Block übersprungen und es geht zum Else-Block. Dort werden dann die Anweisungen im Else-Block ausgeführt.
 
@@ -51,7 +51,7 @@ Das "else" braucht keine Bedingung. Man kann das "else" auch weglassen und nur e
 Beispiel für eine If-Abfrage ohne else:
 <pre>
     if(x != 5){
-    System.out.println("Die Variabel x ist nicht 5");
+    System.out.println("Die Variable x ist nicht 5");
 }
 </pre>
 Wenn x jetzt 5 wäre, würde es einfach den If-Block überspringen und beim Code weitergehen, die Ausgabe wird nicht ausgeführt.
@@ -65,10 +65,10 @@ Beispiel:
     int y = 10;
 
     if(x == 5){
-    System.out.println("Die Variabel x hat den Wert 5 gespeichert.");
+    System.out.println("Die Variable x hat den Wert 5 gespeichert.");
     } else if (y == 10) {
-        System.out.println("Die Variabel y hat den Wert 10 gespeichert.");
+        System.out.println("Die Variable y hat den Wert 10 gespeichert.");
     } else{
-    System.out.println("Beide Variabeln x und y haben einen anderen Wert als 5 oder 10");
+    System.out.println("Beide Variablen x und y haben einen anderen Wert als 5 oder 10");
 }
 </pre>

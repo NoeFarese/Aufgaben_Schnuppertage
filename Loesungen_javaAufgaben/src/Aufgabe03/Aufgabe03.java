@@ -7,15 +7,15 @@ public class Aufgabe03 {
         int x = 15;
 
         if(x == 15){
-            System.out.println("Die Variabel x ist 15.");
+            System.out.println("Die Variable x ist 15.");
         }
 
         //Nr. 2
 
         if(x == 10){
-            System.out.println("Die Variabel x ist 10.");
+            System.out.println("Die Variable x ist 10.");
         } else {
-            System.out.println("Die Variabel x ist nicht 10.");
+            System.out.println("Die Variable x ist nicht 10.");
         }
     }
 }

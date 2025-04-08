@@ -20,7 +20,7 @@ Hier wird ein neuer Scanner mit dem Namen meinScanner erstellt.
 ```
 int benutzereingabe = meinScanner.nextInt();
 ```
-Danach können wir eine Variabel erstellen und die Eingabe vom Benutzer darin speichern.  
+Danach können wir eine Variable erstellen und die Eingabe vom Benutzer darin speichern.  
 In diesem Beispiel wollen wir eine Zahl speichern, deshalb verwenden wir ``int`` und ``.nextInt()``. Für eine Zeichenkette verwendet man ``String`` und ``.nextLine()``.
 
 **Beispiel:**
