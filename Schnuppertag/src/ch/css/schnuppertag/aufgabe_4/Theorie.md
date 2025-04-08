@@ -1,28 +1,65 @@
 # Theorie für Aufgabe 4
 
-Weiter wollen wir uns mit den Schlaufen auseinandersetzen. <br/>
-<b>Grundlagen:</b></br>
-Schlaufen werden dazu verwendet um gewisse Abläufe in einem Programm mehrmals auszuführen.</br>
-Beispiel einer For-Schlaufe:</br>
-<pre>
-for(int variableName = 0; variableName <= 10; variableName++){
-    System.out.println("Die aktuelle Zahl ist: " + variableName);
+## Schlaufen
+
+Schlaufen werden dazu verwendet um Abläufe in einem Programm **mehrmals auszuführen**.
+
+### While-Schlaufe
+
+Eine **While-Schlaufe** wieder holt den Code in den geschwungenen Klammern, solange die Bedingung zutrifft.
+
+```
+int x = 0;
+int y = 10;
+
+while (x <= y) {
+    System.out.println(x);
+    x = x + 1;
 }
-</pre>
+```
 
+Ergibt: `1` `2` `3` `4` `5` `6` `7` `8` `9` `10`
 
-for() -> for ist ein von Java definiertes Schlüsselwort und kennzeichnet eine For-Schlaufe</br>
-int variableName = 0; -> Erstes Segment, hier kannst du eine variable initialisieren.</br>
-variableName <= 10; -> Zweites Segment, hier definierst du die Bedingung, wie lange die Schlaufe andauern soll bis sie fertig ist.
-variableName ++; -> Im dritten Segment, damit die Bedingung irgendeinmal zutrifft, muss der Zustand der variable angepasst werden.
+`while` -> Definiertes Schlüsselwort (wie if) kennzeichnet eine While-Schlaufe  
+`(x <= y)` -> Code wird ausgeführt so lange diese Bedingung zutrifft.
 
-Beispiel einer While-Schlaufe:</br>
-<pre>
-while (variableName1 == variableName2){
-    System.out.println("Die aktuelle Zahl ist: " + var1);
+Bei diesem Beispiel werden zwei Variablen erstellt. `x` ist kleiner oder gleich `y` und der Code in der Schlaufe
+wird ausgeführt.  
+In der Schlaufe wird  `x` um 1 erhöht. Dann wird wieder überprüft, ob `x` kleiner oder gleich `y` ist.  
+Das passiert jetzt so lange, bis `x` grösser als `y` ist. Dann geht das Programm nach der Schlaufe weiter.
+
+### For-Schlaufe
+
+Eine For-Schlaufe funktinoiert gleich, wie die While-Schlaufe, nur dass man die **hochzuzählende Variable** direkt im *
+*Kopf der Schlaufe** erstellt und hochzählt.
+
+```
+for(int x = 0; x <= 10; x++) {
+    System.out.println(x);
 }
-</pre>
+```
 
-while() -> while ist ein von Java definiertes Schlüsselwort und kennzeichnet eine While-Schlaufe</br>
-variableName1 == variableName2; -> ist ein Wahrheitswert und funktioniert ähnlich wie bei if() nur das es immer wiederholt wird 
-bis dieser Wahrheitswert nicht mehr zutrifft.
+`for` -> Definiertes Schlüsselwort (wie if) kennzeichnet eine For-Schlaufe  
+`int x = 0;` -> Erstes Segment, hier wird eine Variable erstellt.  
+`x <= 10;` -> Zweites Segment, die Bedingung, solange diese erfüllt ist, wird der Code in der Schlaufe ausgeführt.  
+`x ++;` -> Drittes Segment, nach jedem Durchlauf wird die Variabel hochgezählt. 
+
+`x++` macht dasselbe, wie `x = x + 1` 
+
+**Beispiel:**
+```
+for(int i = 0; i < 5; i++) {
+    if(i % 2 == 0) {
+        System.out.println(i + " ist gerade");
+    } else {
+        System.out.println(i + " ist ungerade");
+    }
+}
+```
+Ergibt:  
+`0 ist gerade`  
+`1 ist ungerade`  
+`2 ist gerade`  
+`3 ist ungerade`  
+`4 ist gerade`
+
