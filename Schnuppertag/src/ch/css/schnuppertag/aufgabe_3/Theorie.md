@@ -1,5 +1,7 @@
 # Theorie für Aufgabe 3
+
 ## Operatoren
+
 In Java gibt es die folgenden **Operatoren**: 
 ```
 + : Addition. Zahlen oder auch Zeichenketten (Strings) addieren/zusammenfügen.
@@ -21,10 +23,10 @@ In Java gibt es die folgenden **Operatoren**:
 
 Mit `=` teilt man einer Variable einen Wert zu und mit `==` vergleicht man zwei Werte.
 
-**Modulo:**  
+### Modulo: 
+
 Bei Modulo verwendet man den Operator `%`. Mit diesem Operator bekommt man den **Rest** einer
 Division von zwei Zahlen.  
-
 **Beispiele:**
 ```
 15 % 5 = 0 -> 15 geteilt durch 5 gibt 3 mit Rest 0
@@ -39,8 +41,8 @@ Jetzt können wir diese Operatoren bei einer `if-else` Bedingung anwenden.
 `If` bedeutet **falls** und `else` bedeutet **sonst**.
 
 ### If-Abfrage ohne else:  
-In der Klammer steht die **Bedingung**, wenn diese zutrifft wird der Code in den geschwungenen Klammern (`{}`) ausgeführt.  
 
+In der Klammer steht die **Bedingung**, wenn diese zutrifft wird der Code in den geschwungenen Klammern (`{}`) ausgeführt.  
 **Beispiel:** 
 ```
 int zahl = 5;
@@ -53,6 +55,7 @@ Hier trifft die Bedingung zu, denn die Variable `zahl` (Wert 5) ist gleich `5`. 
 
 
 ### If-Abfrage mit else:
+
 Sollte die Bedingungn nicht zutreffen, tritt (falls vorhanden) der `else` Fall ein und der Code im `else{}` wird ausgeführt.  
 **Beispiel:**
 ```
