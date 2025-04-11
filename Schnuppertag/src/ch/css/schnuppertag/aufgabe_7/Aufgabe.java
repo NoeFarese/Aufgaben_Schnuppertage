@@ -12,5 +12,6 @@ public class Aufgabe {
         // Wenn der Spieler die richtige Zahl erraten hat, schreibe "Gratulation, du hast es Geschafft!" in die Konsole.
         // Wenn der Spieler mehr als 5 Versuche ohne korrektes Raten hatte, so gebe in der Konsole "Niederlage" aus und beende das Spiel.
 
+
     }
 }

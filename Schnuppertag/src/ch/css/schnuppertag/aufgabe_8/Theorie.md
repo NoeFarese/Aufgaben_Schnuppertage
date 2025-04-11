@@ -1,28 +1,37 @@
 # Theorie für Aufgabe 8
 
-Damit du einen String in einen Integer umwandeln kannst, kannst du den Code von unten verwenden.
-<pre>
-int number = Integer.parseInt("2")
-</pre>
+## String zu Int
 
-Um eine Entscheidung zu machen, bei denen mehrere Fälle vorkommen könnten, kann man Switch case verwenden.
-<pre>
+Damit du einen String in einen Integer umwandeln kannst, kannst du den Code von unten verwenden.
+```
+int number = Integer.parseInt("2")
+```
+
+## Switch-Case
+
+Ein `switch case` verwendet man , um mehrere Bedingungen nacheinander zu prüfen.  
+**Beispiel:**
+```
 switch (operator) {
     case "+":
-        System.out.println(plus);
+        System.out.println("Addtion");
         break;
     case "-":
-        System.out.println(minus);
-        break;
-    case "/":
-        System.out.println(geteiltdurch);
+        System.out.println("Subtraktion");
         break;
     case "*":
-        System.out.println(mal);
+        System.out.println("Multiplikation");
+        break;
+    case "/":
+        System.out.println("Division");
         break;
 
     default:
         System.out.println("error");
         break;
 }
-</pre>
+```
+Hier wird der Reihe nach geprüft, ob die Variable "operator" einem der Operatoren `+`, `-`, `*` oder `/` entspricht.  
+Sollte kein Fall (`case`) zutreffen tritt der `default` ein.
+
+`break` wird benötigt, damit immer nur eine Bedingung zutreffen kann. 
