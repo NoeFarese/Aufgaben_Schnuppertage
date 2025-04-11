@@ -58,9 +58,9 @@ diese Sonderzeichen geschrieben werden.
 ### Variable erstellen und ausgeben
 
 ```
-int arbeitswegInMinuten = 20;
+int schulwegInMinuten = 20;
 
-System.out.println(arbeitswegInMinuten);
+System.out.println(schulwegInMinuten);
 ```
 
 > Gibt in der Konsole folgendes aus: 20
