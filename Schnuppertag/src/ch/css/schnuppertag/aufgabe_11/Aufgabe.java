@@ -1,7 +1,8 @@
 package aufgabe_11;
 
 public class Aufgabe {
-    public static void main(String[] args) {
+
+   public static void main(String[] args) {
         /*
         Dein Programm soll einen Waldbrand simulieren. Zunächst besteht der Wald aus einem rechteckigen Raster (zweidimensionales Feld) aus Bäumen (B), Steinen (S) und leerem Waldboden (-). Die Verteilung, d.h. wo ein Baum, wo ein Stein und wo leerer Waldboden platziert wird, passiert zufällig, wenn der Wald erstellt wird. Nach Start der Simulation geschieht über einen Timer gesteuert in jedem Zeitschritt t folgendes:
 
@@ -12,10 +13,13 @@ public class Aufgabe {
         Auf jedem leeren Stück Waldboden, respektive Humus (-) wird mit einer geringen Wahrscheinlichkeit w ein neuer Baum (B) wachsen.
         Steine (S) können nicht brennen und an deren Stelle wird auch nie ein neues Bäumchen (B) keimen.
 
-        Bevor er die Simulation startet, soll der Benutzer die Wahrscheinlichkeiten z (Funkenentzündung) und w (Wachstum) sowie die Breite und die Tiefe des Waldes eingeben können. Nach jedem Zeitschritt wird der Wald neu gezeichnet.
+        Bevor er die Simulation startet, soll der Benutzer die Wahrscheinlichkeiten z (Funken entzündung) und w (Wachstum) sowie die Breite und die Tiefe des Waldes eingeben können. Nach jedem Zeitschritt wird der Wald neu gezeichnet.
 
         Als Zusatz kannst du alles noch mit Methoden lösen.
         Es sollte die Methoden baumStamm, baumKrone und eine Zeile geben.
         */
-    }
+
+
+   }
+
 }

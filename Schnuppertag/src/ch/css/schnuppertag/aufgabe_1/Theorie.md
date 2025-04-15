@@ -25,8 +25,8 @@ stehen.
 beinhalten.
 
 [variableName] -> Folgt immer nach dem int oder String und ist grundsätzlich frei wählbar. Du kannst sie beliebig
-benennen. Es gibt jedoch einige Einschränkungen, auf welche wir jetzt nicht näher draufeingehen.
-[=] -> Befindet sich zwischen dem Variablenamen und dem Wert, welcher abgelegt wird.
+benennen. Es gibt jedoch einige Einschränkungen, auf welche wir jetzt nicht näher drauf eingehen.
+[=] -> Befindet sich zwischen dem Variablennamen und dem Wert, welcher abgelegt wird.
 [10] -> Der Wert, in diesem Fall eine Zahl, welche in der Variable gespeichert wird.
 
 ---
